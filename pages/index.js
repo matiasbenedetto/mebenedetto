@@ -7,6 +7,7 @@ export default function Home() {
     <div className={styles.main}>
       <Head>
         <title>Hi 👋, my name is Matias Benedetto</title>
+        <meta property="og:title" content="Hi 👋, my name is Matias Benedetto" key="title" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
 
