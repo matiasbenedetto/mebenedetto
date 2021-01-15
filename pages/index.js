@@ -1,65 +1,33 @@
-import Head from 'next/head'
+import Head from 'next/head';
+import Link from 'next/link';
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
-    <div className={styles.container}>
-      <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+    <div className={styles.main}>
 
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
+      <div className={styles.mainCard}>
 
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
-
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
+        <div className={styles.cardHeader}>
+          <img className={styles.avatar} src="https://avatars1.githubusercontent.com/u/1310626" alt="Matias Benedetto" />
+          <h1><span>Hi 👋, my name is</span> Matias Benedetto</h1>
         </div>
-      </main>
 
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
-      </footer>
-    </div>
+        <div className={styles.cardBody}>
+          <p>I'm a curious person who works as a Software Developer 🧑‍💻.</p>
+          <p>Lately I've been working as a Fullstack Engineer for San Francisco 🇺🇸 start-up companies, <a href="https://ipsy.com" target="_blank">Ipsy</a> and <a href="https://provenskincare.com" target="_blank">Proven.</a></p>
+          <p>My main expertise is around web technologies 🌎 and JavaScript ecosystem: Typescript, React, Node, GraphQL, Express.</p>
+          <p>I also enjoy working with other technologies as Python, Django, Mongo, Docker and Cloud platforms 🔥.</p>
+          <p>📨 If you want to talk don't hesitate to drop me a line to <Link href="mailto:matias.benedetto@gmail.com">matias.benedetto@gmail.com</Link></p>
+        </div>
+
+        <div className={styles.cardFooter}>
+          <p>You can learn more from me in:</p>
+          <p className={styles.social}><a href="https://www.linkedin.com/in/matias-benedetto/" target="_blank"><img src="/linkedin.svg" /> LinkedIn</a></p>
+          <p className={styles.social}><a href="https://github.com/matiasbenedetto" target="_blank"><img src="/github.svg" /> GitHub</a></p>
+        </div>
+
+      </div>
+  </div>
   )
 }
