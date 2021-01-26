@@ -20,11 +20,12 @@ export default function Home() {
         </div>
 
         <div className={styles.cardBody}>
-          <p>I'm a curious person who works as a Software Developer 🧑‍💻.</p>
-          <p>Lately I've been working as a Fullstack Engineer for San Francisco 🇺🇸 start-up companies, <a href="https://ipsy.com" target="_blank">Ipsy</a> and <a href="https://provenskincare.com" target="_blank">Proven.</a></p>
-          <p>My main expertise is around web technologies 🌎 and JavaScript ecosystem: Typescript, React, Node, GraphQL, Express.</p>
-          <p>I also enjoy working with other technologies as Python, Django, Mongo, Docker and Cloud platforms 🔥.</p>
-          <p>📨 If you want to talk don't hesitate to drop me a line to <Link href="mailto:matias.benedetto@gmail.com">matias.benedetto@gmail.com</Link></p>
+          <p>I'm 31, and I consider myself a curious person who works as a Software Developer 🧑‍💻.</p>
+          <p>Trough my career, I collaborated on several projects for large organizations 🏭 such as <a href="https://www.warnermedia.com/" target="_blank">Warner Media</a> and <a href="https://www.tvpublica.com.ar/" target="_blank">TVP</a>. But I also enjoy working in smaller teams that iterate faster 🚀.</p>
+          <p>Lately, I've been working remotely from Buenos Aires, Argentina 🇦🇷 as a Fullstack Engineer for San Francisco 🇺🇸 start-up companies, <a href="https://ipsy.com" target="_blank">Ipsy</a> and <a href="https://provenskincare.com" target="_blank">Proven.</a></p>
+          <p>My main expertise is around web technologies 🌎 and JavaScript / Typescript ecosystem: React, Redux, Node, NextJs, GraphQL, Express.</p>
+          <p>I also like working with other technologies as Python, Django, Mongo, Docker and Cloud platforms 🔥.</p>
+          <p>📨 If you want to talk don't hesitate to drop me a line to <Link href="mailto:matias.benedetto@gmail.com">matias.benedetto@gmail.com</Link>.</p>
         </div>
 
         <div className={styles.cardFooter}>
