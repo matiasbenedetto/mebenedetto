@@ -20,7 +20,7 @@ export default function Home() {
         </div>
 
         <div className={styles.cardBody}>
-          <p>I'm 31, and I consider myself a curious person who works as a Software Developer 🧑‍💻.</p>
+          <p>I'm a curious person who works as a Software Developer 🧑‍💻.</p>
           <p>Trough my career, I collaborated on several projects for large organizations 🏭 such as <a href="https://www.warnermedia.com/" target="_blank">Warner Media</a> and <a href="https://www.tvpublica.com.ar/" target="_blank">TVP</a>. But I also enjoy working in smaller teams that iterate faster 🚀.</p>
           <p>Lately, I've been working remotely from Buenos Aires, Argentina 🇦🇷 as a Fullstack Engineer for San Francisco 🇺🇸 start-up companies, <a href="https://ipsy.com" target="_blank">Ipsy</a> and <a href="https://provenskincare.com" target="_blank">Proven.</a></p>
           <p>My main expertise is around web technologies 🌎 and JavaScript / Typescript ecosystem: React, Redux, Node, NextJs, GraphQL, Express.</p>
