@@ -24,11 +24,11 @@ export default function Home() {
           
           <p>💡 Currently, I'm a full-time contributor to <a target="_blank" href="https://wordpress.org">WordPress</a>, sponsored by <a target="_blank" href="https://automattic.com/">Automattic</a>. It allows me to collaborate with the worldwide distributed community that builds the CMS, which <a target="_blank" href="https://kinsta.com/wordpress-market-share/">powers 40% of the internet</a> ⚡.</p> 
           
-          <p>Trough my career, I participated on several projects for large organizations 🏭 such as <a href="https://www.warnermedia.com/" target="_blank">Warner Media</a> and <a href="https://www.tvpublica.com.ar/" target="_blank">TVP</a>. But I also enjoyed joining in smaller teams that iterate faster 🚀. I have contributed as a Fullstack Engineer for San Francisco 🇺🇸 start-up companies like <a href="https://ipsy.com" target="_blank">Ipsy</a> and <a href="https://provenskincare.com" target="_blank">Proven.</a></p>
+          <p>Throughout my career, I participated in several projects for large organizations 🏭 such as <a href="https://www.warnermedia.com/" target="_blank">Warner Media</a> and <a href="https://www.tvpublica.com.ar/" target="_blank">TVP</a>. But I also enjoyed joining smaller teams that iterate faster 🚀. I have contributed as a Fullstack Engineer for San Francisco 🇺🇸 start-up companies like <a href="https://ipsy.com" target="_blank">Ipsy</a> and <a href="https://provenskincare.com" target="_blank">Proven.</a></p>
           
-          <p>My main expertise is around web technologies 🌎 and JavaScript / Typescript ecosystem: React, Redux, Node, NextJs, GraphQL, Express.</p>
+          <p>My primary expertise is around frontend web technologies 🌎 and JavaScript / Typescript ecosystem: React, Redux, Node, NextJs, GraphQL, Express.</p>
           
-          <p>I also like working with other technologies as Python, Django, Mongo, Docker and Cloud platforms 🔥.</p>
+          <p>I also like working with other technologies such as Python, Django, Mongo, Docker, and Cloud platforms.</p>
           
           <p>📨 If you want to talk don't hesitate to drop me a line to <Link href="mailto:matias.benedetto@gmail.com">matias.benedetto@gmail.com</Link>.</p>
         </div>
