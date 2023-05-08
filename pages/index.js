@@ -35,6 +35,7 @@ export default function Home() {
 
         <div className={styles.cardFooter}>
           <p>You can learn more from me in:</p>
+          <p className={styles.social}><a href="https://mebenedetto.com/blog/" target="_blank"><img src="/wordpress.svg" /> Blog</a></p>
           <p className={styles.social}><a href="https://www.linkedin.com/in/matias-benedetto/" target="_blank"><img src="/linkedin.svg" /> LinkedIn</a></p>
           <p className={styles.social}><a href="https://github.com/matiasbenedetto" target="_blank"><img src="/github.svg" /> GitHub</a></p>
         </div>
